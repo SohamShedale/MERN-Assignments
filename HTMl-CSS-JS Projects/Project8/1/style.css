@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #14ad7a;
+    height: 750px
+}
+input[type='text'],[type='password']{
+    border: 2px solid #14ad7a;
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.send{
+    border: 2px solid #669C82;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #6D8C64;
+}
